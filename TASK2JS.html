@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2 JS</title>
+</head>
+<body>
+    <script>
+        let a="webmaster";
+        console.log("Original word: "+a);
+        function order(a){
+            b=a.split('');
+            //console.log("b = "+b);
+            c=b.sort() ;
+            //console.log("c = "+c);
+            d=c.join('');
+            //console.log("d = "+d);
+            return d;
+        }
+        console.log( "Aplhabetical order: "+order(a));
+    </script>
+</body>
+</html>
